@@ -1,3 +1,6 @@
-cargofn main() {
-    println!("carai, to codando em rust");
+fn main() {
+    let mut total: i32 = 30; //def explicita
+    println!("Trabalhou {} horas", total);
+    total = 40;
+    println!("Trabalhou {} horas", total);
 }
